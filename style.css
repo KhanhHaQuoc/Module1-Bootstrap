@@ -39,3 +39,25 @@
     font-weight: 700;
     border-radius: 60px;
 }
+.main{
+    background: url(./img/Bg1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(173, 155, 197);
+}
+.main_btn {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 133, 186, 0.967);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
