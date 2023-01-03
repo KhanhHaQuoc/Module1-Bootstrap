@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Rubik:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Organic</title>
 </head>
 <body>
     <!-- Header -->
@@ -23,21 +23,21 @@
                 <a class="nav-link active"href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trending</a>
+                <a class="nav-link" href="articles.html">Trending</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"href="#">Organic</a>
+                <a class="nav-link active"href="product.html">Product</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link" href="#">Store</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="px-2 search" type="search" placeholder="Search here" aria-label="Search">
-              <button class="search_btn" type="submit">Search</button>
+              <button class="btn" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -50,32 +50,181 @@
                 <div class="row py-4">
                     <div class="col-lg-7 pt-5 text-center">
                         <h1 class="pt-2 pe-5">The greatest wealth is Health</h1>
-                        <button class="main_btn mt-4">Get started </button>
+                        <a href="articles.html">
+                          <button class="main_btn mt-4">Get started </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="icon">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="./img/avocado.png" class="img-fluid" alt="">
-                        <h6>Natural</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="./img/salad.png" class="img-fluid" alt="">
-                        <h6>Natural</h6>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="./img/vegetable.png" class="img-fluid" alt="">
-                        <h6>Natural</h6>
+            <div class="container py-5">
+                <div class="row pt-5">
+                    <div class="col-lg-7 m-auto">
+                      <div class="row text-center">
+                        <div class="col-lg-4 text-center">
+                          <img src="./img/avocado.png" class="img-fluid" alt="">
+                          <h6>Natural</h6>
+                         </div>
+                          <div class="col-lg-4">
+                          <img src="./img/salad.png" class="img-fluid" alt="">
+                          <h6>Natural</h6>
+                          </div>
+                         <div class="col-lg-4">
+                          <img src="./img/vegetable.png" class="img-fluid" alt="">
+                          <h6>Natural</h6>
+                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="product">
+          <div class="container py-5">
+            <div class="row py-5">
+              <div class="col-lg-5 m-auto text-center">
+                <h1>What's Trending</h1>
+                <h6 style="color: red;" >Be Healthy</h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="card border-o bg-light">
+                  <div class="card-body">
+                    <img src="./img/milk.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <h6>Vegan milk</h6>
+                <p>$10,99</p>
+              </div>
+
+              <div class="col-lg-3 text-center">
+                <div class="card border-o bg-light">
+                  <div class="card-body">
+                    <img src="./img/tea-bag.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <h6>Green Tea</h6>
+                <p>$7,99</p>
+              </div>
+
+              <div class="col-lg-3 text-center">
+                <div class="card border-o bg-light">
+                  <div class="card-body">
+                    <img src="./img/nuts.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <h6>Mixed Nuts</h6>
+                <p>$17,50</p>
+              </div>
+
+              <div class="col-lg-3 text-center">
+                <div class="card border-o bg-light">
+                  <div class="card-body">
+                    <img src="./img/carrot.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <h6>Fresh Vegetable</h6>
+                <p>$12,99</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 text-center m-auto">
+                <a href="product.html">
+                  <button class="btn">Click For More</button>
+                </a>
+              </div>
+            </div>
+          </div>  
+        </section>
+
+        <section class="articles">
+          <div class="container py-5">
+            <div class="row py-5">
+              <div class="col-lg-8 m-auto text-center">
+                <h1>Wellcome to the community</h1>
+                <h6 style="color: red;" >Stay Healthy</h6>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./img/organic-product.png" class="img-fluid mb-3" alt="">
+                  <h5>Best quality product</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quam! Repellat, unde iste! Beatae necessitatibus a, repudiandae assumenda modi quibusdam aspernatur, dolores officiis quos inventore velit aliquid ex, nulla praesentium!</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="./img/recipe.png" class="img-fluid mb-3" alt="">
+                  <h5>Easy Recipes</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quam! Repellat, unde iste! Beatae necessitatibus a, repudiandae assumenda modi quibusdam aspernatur, dolores officiis quos inventore velit aliquid ex, nulla praesentium!</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="./img/lifestyles.png" class="img-fluid mb-3" alt="">
+                  <h5>Healthy lifestyle</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quam! Repellat, unde iste! Beatae necessitatibus a, repudiandae assumenda modi quibusdam aspernatur, dolores officiis quos inventore velit aliquid ex, nulla praesentium!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="contact py-5">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-lg-5 m-auto text-center">
+                <h1>Contact Us</h1>
+                <h6 style="color: red;" >Keep In Touch With Us</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-lg-9 m-auto">
+              <div class="row">
+                <div class="col-lg-4">
+                  <h6>Location  </h6>
+                  <p>119 Pham Ngoc Thach, Dong Da, Ha Noi</p>
+
+                  <h6>Phone  </h6>
+                  <p>0123456789</p>
+                
+                  <h6>Email  </h6>
+                  <p>HealthyFood@gmail.com</p>
+              </div>
+              <div class="col-lg-7">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control bg-light" placeholder="First Name">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control bg-light" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="row py-3">
+                  <div class="col-lg-12">
+                    <textarea name="" class="form-control bg-light" placeholder="Leave us a message" cols="10" rows="5"></textarea>
+                  </div>
+                </div>
+                <button class="btn">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
     <!-- Body -->
     
     <!-- Footer -->
+    <section class="footer py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-9 m-auto text-center">
+            <h1>Join our community</h1>
+            <input type="text" placeholder="Enter your email">
+            <button class="submit_button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
